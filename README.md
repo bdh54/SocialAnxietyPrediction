@@ -63,9 +63,9 @@ Guided by correlation patterns and domain logic, we created:
 | Linear Regression  | 1.52 | Baseline linear fit |
 | Ridge              | 1.50 | CV over α |
 | Lasso              | 1.49 | CV over α |
-| Decision Tree (pruned) | 1.46 | — | Single interpretable non‑linear model |
-| **Random Forest (depth 7)** | **1.39** | **0.57** | Best RMSE; robust to non‑linearities/interactions |
-| XGBoost            | 1.41 | —     | Competitive with RF; higher compute than shallow RF |
+| Decision Tree (pruned) | 1.46 |Single interpretable non‑linear model |
+| **Random Forest (depth 7)** | **1.39** | Best RMSE; robust to non‑linearities/interactions |
+| XGBoost            | 1.41 | Competitive with RF; higher compute than shallow RF |
 
 **Efficiency note.** A **Random Forest (depth 5)** achieved RMSE ≈ **1.41**, on par with XGBoost but with lower computational cost.  
 
