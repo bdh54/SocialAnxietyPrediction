@@ -107,24 +107,6 @@ conda activate anxiety-eda
 python -m ipykernel install --user --name anxiety-eda --display-name "Python (anxiety-eda)"
 ```
 
-### Run
-- Open the notebook in Jupyter/VS Code using the **Python (anxiety-eda)** kernel.  
-- Execute cells in order. Figures will render inline.  
-- (Optional) Save figures to `figs/` for the README.
-
----
-
-## Suggested Repo Structure
-```
-.
-├── data/                # (optional) synthetic data or link in README only
-├── notebooks/
-│   └── Feature Eng & Reg.ipynb
-├── figs/                # saved figures (histograms, boxplots, heatmap, importances)
-├── environment.yml
-└── README.md
-```
-
 ---
 
 ## Citation / Data
